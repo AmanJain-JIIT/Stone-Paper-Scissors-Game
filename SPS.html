@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Stone Paper Scisors</title>
+</head>
+
+<body id="body">
+    <div id="title">
+        <img id="stone" src="Images/stonetext.png" alt="">
+        <img id="paper" src="Images/papertext.png" alt="">
+        <img id="scissor" src="Images/scissortext.png" alt="">
+    </div>
+
+    <div id="choice">
+        <img id="a" src="Images/Stone.png" width="250px" onclick="set_stone()" onmouseover="stone_hover()"
+            onmouseleave="stone_back()">
+        <img id="b" src="Images/Paper.png" width="200px" onclick="set_paper()" onmouseover="paper_hover()"
+            onmouseleave="paper_back()">
+        <img id="c" src="Images/Scissor.png" width="220px" onclick="set_scissor()" onmouseover="scissor_hover()" onmouseleave="scissor_back()">
+    </div>
+
+    <div id="computer">
+        <img src="Images/Computers move was.png" width="300px" alt="">
+        <img id = "cmove" src="Images/Question mark.png" width="70px" alt="">
+    </div>
+
+    <div id="scoreboard">
+        <img src="Images/Your Score.png" width ="200px" alt="">
+        <img src="Images/Comp Score.png"  width ="280px" alt="">
+    </div>
+    <div id="score">
+        <span id="my"> 0 </span>
+        <span>&emsp;&emsp;&emsp;&emsp;</span>
+        <span id="comp"> 0 </span>
+    </div>
+    <div id="finalmsg">
+        <img id="result" src="Images/Result.png" width = "300px" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

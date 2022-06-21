@@ -1,0 +1,46 @@
+#body
+{
+    background-image: url('Images/Background image.gif' ) ;
+    background-size: cover;
+    border-style: dotted;
+    border-color: antiquewhite;
+    border-width: 20px;
+}
+#title
+{
+    text-align: center;
+}
+#choice
+{
+    text-align: center;
+}
+#computer
+{
+    text-align: center;
+}
+#scoreboard
+{
+    text-align: center;
+}
+#score
+{
+    text-align: center;
+}
+#my
+{
+    font-size: 80px;
+    font-family: cursive;
+    font-style: oblique;
+
+}
+#comp
+{
+    font-size: 80px;
+    font-family: cursive;
+    font-style: oblique;
+    
+}
+#finalmsg
+{
+    text-align: center;
+}
